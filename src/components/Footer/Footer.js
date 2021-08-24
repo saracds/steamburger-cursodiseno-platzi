@@ -10,7 +10,7 @@ function Footer() {
                     <a href="#" class="footer__logo">Steam Burger</a>
                     <span class="footer__description">Restaurante</span>
                     <div>
-                        <a href="#" class="footer__social"><i class='bx bxl-github'></i></a>
+                        <a href="https://github.com/saracds/steamburger-cursodiseno-platzi" target="_blank"rel="noreferrer"  class="footer__social"><i class='bx bxl-github'></i></a>
                     </div>
                 </div>
 
