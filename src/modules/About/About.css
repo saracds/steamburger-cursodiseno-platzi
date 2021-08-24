@@ -1,0 +1,43 @@
+.About {
+    padding: var(--padding-large) 0;
+    text-align: center;
+}
+
+.About__data{
+    text-align: center;
+}
+
+.About__title,
+.About__description{
+    margin-bottom: 1.5rem;
+}
+
+.About__img{
+    width: 280px;
+    border-radius: .5rem;
+    justify-self: center;
+}
+
+@media screen and (min-width: 576px){
+    .About__container{
+      grid-template-columns: repeat(2,1fr);
+      align-items: center;
+    }
+
+    .About__data, 
+    .About__initial{
+        text-align: initial;
+    }
+
+    .About__img{
+        width: 380px;
+        height: 480px;
+        order: -1;
+    }
+}
+
+@media screen and (min-width: 960px){ 
+    .About__container{
+      column-gap: 3rem;
+    }
+  }

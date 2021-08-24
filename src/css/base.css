@@ -1,0 +1,19 @@
+@import "./variables/colors-theme-primary.css";
+@import "./variables/layout.css";
+@import "./variables/paddings.css";
+@import "./variables/typography.css";
+
+body {
+  background-color: var(--color-white);
+  margin: 0 ;
+  padding: 0 ;
+  box-sizing: border-box;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}

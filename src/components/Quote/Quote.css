@@ -1,0 +1,7 @@
+@import "../../css/base.css";
+
+.Quote {
+  background-color: var(--color-secondary);
+  padding: var(--padding-large) 20px;
+  text-align: center;
+}

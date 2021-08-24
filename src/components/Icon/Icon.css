@@ -1,0 +1,11 @@
+@import "../../css/base.css";
+
+.Icon--primary {
+  height: 35px;
+}
+.Icon--secondary {
+  height: 25px;
+}
+.Icon--terciary {
+  height: 93px;
+}

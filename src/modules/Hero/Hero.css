@@ -1,0 +1,40 @@
+@import "../../css/base.css";
+
+.Hero {
+  background-color: var(--color-cuaternary);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url("../../images/hamburger-hero-small.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: var(--padding-large) var(--padding-x-small) var(--padding-extra-large);
+  position: relative;
+  text-align: center;
+  height: 500px;
+}
+
+.Hero:after {
+  content: "";
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(var(--color-black), 0.4);
+  z-index: 1;
+}
+.Hero-title, .Hero-subtitle {
+  margin-bottom: var(--padding-small);
+}
+.Hero-title, .Hero-subtitle, .Hero-icon, .Hero-cta {
+  position: relative;
+  z-index: 2;
+}
+.Hero-icon {
+  margin: var(--padding-large) 0 var(--padding-small);
+}
+
+@media (min-width: 768px) {
+  .Hero {
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url("../../images/hamburger-hero.jpeg");
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "hero": {
+    "title": "Steam",
+    "subtitle": "Hamburgesas artesanales",
+    "cta": "Ver menú",
+    "icon": "lightHamburger"
+  },
+  "quote": {
+    "title": "Hamburguesas de pura carne con el toque secreto."
+  },
+  "about": {
+    "title": "Nosotros",
+    "description": "Tenemos las mejores hamburguesas artesanales de la ciudad, nos caracterizamos por brindar el mejor servicio a nuestros clientes y los precios más asequibles",
+    "cta": "Leer más"
+  },
+  "services": {
+    "title" : "Nuestros Servicios",
+    "items" :[
+      {
+        "title": "Deliciosa comida",
+        "description": " Ofrecemos a nuestros clientes servicios de excelente calidad durante muchos años con la mejor y deliciosa comida de la ciudad"
+      },
+      {
+        "title": "Excelente servicio",
+        "description": "Nuestros clientes son lo más valioso para nosotros, por eso contamos con nuestro plan de reservas para que puedes disfrutar tus momentos espciales con nosotros"
+      },
+      {
+        "title": "Domicilios",
+        "description": "Ya puedes disfrutar desde tu hogar nuestra deliciosa comida, con nuestro servicio a domicilio 24/7."
+      }
+    ]
+  },
+  "menu": {
+    "title": "Menú",
+    "cta": "Ver mi pedido (2)",
+    "items": [
+      {
+        "icon": "hamburger"
+      },
+      {
+        "icon": "fries"
+      },
+      {
+        "icon": "soda"
+      },
+      {
+        "icon": "iceCream"
+      }
+    ],
+    "products": [
+      {
+        "title": "Steam sencilla",
+        "subtitle": "1 lb de res con queso, verdura y pan.",
+        "price": "$10.000",
+        "imagen" : "hamburguesasencilla"
+      },
+      {
+        "title": "Steam doble",
+        "subtitle": "1 lb de res con queso, verdura y pan.",
+        "price": "$15.000",
+        "imagen" : "hamburguesasencilla"
+      },
+      {
+        "title": "Steam especial",
+        "subtitle": "1 lb de res, tocineta, queso, verdura y pan.",
+        "price": "$20.000",
+        "imagen" : "hamburguesasencilla"
+      }
+    ]
+  },
+  "challenge": {
+    "title": "#RetoSteam",
+    "subtitle": "Cuéntanos en redes sociales lo que mas te gusta de steam y obtén 15% de descuento.",
+    "social": [
+      {
+        "icon": "facebook"
+      },
+      {
+        "icon": "instagram"
+      },
+      {
+        "icon": "tiktok"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "description": "Si quieres saber más sobre nuestros servicios o tienes alguna duda al respecto, ponte en contacto con nosotros por nuestro servicio de chat",
+    "cta": "Contáctar"
+  },
+  "styleguide": {
+    "title": "Steam burguer UI",
+    "sections": [
+      {
+        "title": "Colores",
+        "subtitle": "Añade acá tu paleta de color. Debes reemplazar las variables de color en colors.scss"
+      },
+      {
+        "title": "Tipografia",
+        "subtitle": "Añade acá tus fuentes. Debes reemplazar las variables de tipografía y los estilos de los headings en typography.scss"
+      },
+      {
+        "title": "Grid",
+        "subtitle": "Este proyecto utiliza 4 columnas en dispositivos móviles y 12 columnas a partir de tablet. Escala la página para ver como funciona."
+      },
+      {
+        "title": "Botones",
+        "subtitle": "Cambia los estilos de los botones en Cta.scss"
+      },
+      {
+        "title": "Quote",
+        "subtitle": "Este es un ejemplo del componente Quote."
+      },
+      {
+        "title": "Product",
+        "subtitle": "Este es un ejemplo del componente Product."
+      },
+      {
+        "title": "Menu",
+        "subtitle": "Este es un ejemplo del componente Menu."
+      },
+      {
+        "title": "Challenge",
+        "subtitle": "Este es un ejemplo del componente Challenge."
+      },
+      {
+        "title": "ContactBox",
+        "subtitle": "Este es un ejemplo del componente ContactBox."
+      },
+      {
+        "title": "Nav",
+        "subtitle": "Este es un ejemplo del componente Nav."
+      },
+      {
+        "title": "Hero",
+        "subtitle": "Este es un ejemplo del componente Hero."
+      }
+    ]
+  }
+}

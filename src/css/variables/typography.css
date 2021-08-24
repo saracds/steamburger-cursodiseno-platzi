@@ -1,0 +1,90 @@
+/* Importa aquí tus fuentes. */
+@import url("https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap");
+
+:root{
+  --font-primary: "Arvo", serif;
+  --font-secondary: "Open Sans", sans-serif;
+  --font-size-extra-small: 16px;
+  --font-size-small: 20px;
+  --font-size-medium: 30px;
+  --font-size-large: 35px;
+  --font-size-extra-large: 50px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+h1 {
+  color: var(--color-white);
+  font-family: var(--font-primary);
+  font-size: var(--font-size-extra-large);
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+h2 {
+  color: var(--color-white);
+  font-family: var(--font-primary);
+  font-size: var(--font-size-medium);
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+h3 {
+  color: var(--color-black);
+  font-family: var(--font-primary);
+  font-size: var(--font-size-large);
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.h3--primary {
+  color: var(--color-primary);
+}
+
+h4 {
+  color: var(--color-primary);
+  font-family: var(--font-primary);
+  font-size: var(--font-size-small);
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.h4--dark {
+  color: var(--color-black);
+  font-weight: 500;
+}
+
+.h4--white {
+  color: var(--color-white);
+}
+
+h5 {
+  color: var(--color-black);
+  font-family: var(--font-secondary);
+  font-size: var(--font-size-medium);
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+p {
+  font-family: var(--font-secondary);
+  font-size: var(--font-size-extra-small);
+  line-height: 1.5;
+  margin: 0;
+}
+
+.p--light {
+  color: var(--color-white);
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: var(--font-size-extra-large);
+  } 
+}

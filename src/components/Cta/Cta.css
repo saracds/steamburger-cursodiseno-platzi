@@ -1,0 +1,72 @@
+@import "../../css/base.css";
+
+.Cta {
+  color: var(--color-black);
+  cursor: pointer;
+  transition: transform 0.4s ease-in-out;
+}
+.Cta--primary, .Cta--secondary {
+  background-color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+  color: var(--color-white);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.Cta--primary:active, 
+.Cta--secondary:active, 
+.Cta--primary:focus, 
+.Cta--secondary:focus, 
+.Cta--primary:hover, 
+.Cta--secondary:hover {
+  background-color: #ffcf00a8;
+  border: 1px solid var(--color-primary);
+  color: var(--color-white);
+  transform: translateY(-5px);
+}
+
+.Cta--primary {
+  font-family: var(--font-primary);
+  font-size: 25px;
+}
+.Cta--secondary {
+  font-family: var(--font-secondary);
+  font-size: var(--font-size-small);
+}
+.Cta--terciary, .Cta--cuaternary {
+  border-radius: 50%;
+  height: 60px;
+  padding: 5px;
+  width: 60px;
+}
+.Cta--terciary:active, 
+.Cta--cuaternary:active, 
+.Cta--terciary:focus, 
+.Cta--cuaternary:focus, 
+.Cta--terciary:hover, 
+.Cta--cuaternary:hover {
+  transform: rotate(-20deg);
+}
+
+.Cta--terciary {
+  background-color: transparent;
+  border: 3px solid var(--color-black);
+}
+.Cta--terciary:active, 
+.Cta--terciary:focus, 
+.Cta--terciary:hover {
+  background-color: var(--color-primary);
+}
+.Cta--cuaternary {
+  background-color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+  color: var(--color-white);
+}
+
+.Cta--price {
+  color: var(--color-primary);
+  text-align: left !important;
+  padding: 10px 20px;
+  border: none;
+  font-size: 25px;
+  font-family: var(--font-primary);
+}

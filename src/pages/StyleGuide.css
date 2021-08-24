@@ -1,0 +1,128 @@
+@import "../css/base.css";
+
+.StyleGuide {
+  position: relative;
+}
+
+.StyleGuide__color {
+  background-color: var(--color-black);
+  display: block;
+  font-family: var(--font-primary);
+  margin-top: 30px;
+  padding: 25px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.StyleGuide__color--0 {
+  background-color: var(--color-white);
+  border: 2px solid var(--color-black);
+  color: var(--color-black);
+}
+
+.StyleGuide__color--1 {
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+
+.StyleGuide__color--2 {
+  background-color: var(--color-primary);
+}
+
+.StyleGuide__color--3 {
+  background-color: var(--color-secondary);
+  color: var(--color-white);
+}
+
+.StyleGuide__color--4 {
+  background-color: var(--color-terciary);
+}
+
+.StyleGuide__color--5 {
+  background-color: var(--color-cuaternary);
+  color: var(--color-white);
+}
+
+.StyleGuide__section {
+  grid-column: 1/-1;
+  margin: 40px 0;
+}
+
+.StyleGuide__section-subtitle {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.StyleGuide__section .Menu, 
+.StyleGuide__section .Contact, 
+.StyleGuide__section .Nav {
+  padding: 0;
+}
+
+.StyleGuide__typography, 
+.StyleGuide__colors, 
+.StyleGuide__ctas {
+  text-align: center;
+}
+
+.StyleGuide__main-title {
+  background-color: var(--color-black);
+  grid-column: 1/-1;
+  margin: 0 0 20px;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.StyleGuide__wrapper {
+  min-height: 100px;
+  position: relative;
+}
+
+.StyleGuide__masthead {
+  background-color: #e8e8e8;
+  margin-bottom: 60px;
+  padding: 20px;
+  text-align: center;
+}
+
+.StyleGuide__typography-title {
+  font-size: 30px;
+}
+
+.StyleGuide__typography-heading, 
+.StyleGuide__typography-title {
+  grid-column: 1/-1;
+  margin: 20px 0;
+}
+
+.StyleGuide__typography h1, 
+.StyleGuide__typography h2 {
+  background-color: black;
+  padding: 8px;
+}
+
+.StyleGuide__column {
+  background-color: #ff5252;
+  border: 3px solid var(--color-black);
+  color: var(--color-black);
+  font-family: var(--font-primary);
+  font-size: 30px;
+  margin-bottom: 10px;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.StyleGuide__ctas .Cta {
+  display: inline-block;
+  margin: 20px 20px 20px 0;
+}
+
+
+
+@media (min-width: 1280px) {
+  .StyleGuide__color {
+    display: inline-block;
+    width: 300px;
+    margin-right: 30px;
+  }
+}

@@ -1,0 +1,66 @@
+@import "../../css/base.css";
+
+.Contact {
+  padding: 0 2rem;
+  text-align: center;
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../../images/hamburger-footer.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+  background: #0c0f10;
+  margin: 0 !important;
+  height: 600px;
+  font-family: var(--font-primary);
+}
+
+.Contact-info {
+  grid-column: 1/-1;
+  color: var(--color-white)!important;
+}
+
+.Contact-info h3{
+  margin: var(--padding-small) auto;
+}
+
+.Contact-info p{
+  margin: var(--padding-x-small);
+  font-family: var(--font-secondary);
+}
+
+.Contact-box {
+  grid-column: 1/-1;
+  /* margin-top: var(--padding-small); */
+}
+
+.Contact-box img{
+  margin-top: var(--padding-small);
+  width: 100%;
+  border-radius: 5px;
+  -webkit-box-shadow: 16px -10px 0px 0px rgb(255 217 28);
+  -moz-box-shadow: 16px -10px 0px 0px rgb(255 217 28);
+  box-shadow: 16px -10px 0px 0px rgb(255 217 28);
+}
+
+@media (min-width: 768px) {
+  
+  .Contact {
+    padding: 0 3rem;
+  }
+  .Contact-info {
+    grid-column: 1/7;
+    align-self: center;
+    text-align: initial;
+  }
+  .Contact-box {
+    grid-column: 7/12;
+    align-self: center;
+  }
+
+  .Contact-box img{
+    margin: auto;
+    width: 100%;
+    -webkit-box-shadow: 29px -30px 0px 0px var(--color-primary);
+    -moz-box-shadow: 29px -30px 0px 0px var(--color-primary);;
+    box-shadow: 29px -30px 0px 0px var(--color-primary);;
+  }
+}

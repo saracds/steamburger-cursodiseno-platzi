@@ -1,0 +1,53 @@
+@import "../../css/base.css";
+
+.Product {
+  padding: 3px var(--padding-small);
+  text-align: center;
+  background: #f0efef;
+  -webkit-box-shadow: 14px 17px 36px -4px rgba(232,232,232,0.68);
+  -moz-box-shadow: 14px 17px 36px -4px rgba(232,232,232,0.68);
+  box-shadow: 14px 17px 36px -4px rgba(232,232,232,0.68);
+  border-radius: 10px;
+  width: 200px;
+  height: 250px;
+  /* align-self: center; */
+  
+}
+/* .Product-title, .Product-description {
+  margin-bottom: var(--padding-x-small);
+} */
+
+.Product-img{
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: var(--padding-extra-small);
+}
+
+@media (min-width: 768px) {
+  .Product  {
+    width: 150px;
+    height: 320px;
+    text-align: initial;
+    margin: 0 auto;
+  }
+
+  .Product .Product-img{
+    width: 130px;
+    height: 130px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .Product  {
+    width: 230px;
+    height: 320px;
+    text-align: initial;
+    margin: 0 auto;
+  }
+
+  .Product .Product-img{
+    width: 170px;
+    height: 170px;
+  }
+}
